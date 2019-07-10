@@ -10,29 +10,7 @@
         <h1>Processing project by Antonio</h1>
         <script type="text/processing">
 
-          void setup ()
-{
-  size (200, 200);
-  background (0, 0, 0);
-  smooth ();
-  noStroke ();
-}
-void draw ()
-{
-  if (frameCount % 10==0)
-  {
-    fill (frameCount *2 % 255, frameCount *4 % 255, frameCount *8 % 255, frameCount *10 % 255);
-    pushMatrix ();
-    translate (100, 100);
-    rotate (frameCount *0.4 % 360);
-    ellipse (20, 20, 100, 20);
-    
-    fill (0);
-    
-    rect (0, 0, 80, 0, 5);
-    popMatrix ();
-  }
-}
+
             
         </script>
         <canvas></canvas>
